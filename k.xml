@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<NeededValues>
+    <K name="K_10">
+      <Description>Kwota netto – Dostawa towarów oraz świadczenie usług na terytorium kraju, zwolnione od podatku</Description>
+    </K>
+    <K name = "K_11">
+      <Description>Kwota netto – Dostawa towarów oraz świadczenie usług poza terytorium kraju </Description>
+    </K>
+    <K name = "K_12">
+      <Description>Kwota netto – w tym świadczenie usług, o których mowa w art. 100 ust.</Description>
+    </K>
+    <K name = "K_13">
+      <Description>Kwota netto – Dostawa towarów oraz świadczenie usług na terytorium kraju, opodatkowane stawką 0%</Description>
+    </K>
+    <K name = "K_14">
+      <Description>Kwota netto – w tym dostawa towarów, o której mowa w art. 129 ustawy</Description>
+    </K>
+    <K name = "K_15">
+      <Description>Kwota netto – Dostawa towarów oraz świadczenie usług na terytorium kraju, opodatkowane stawką 5%</Description>
+    </K>
+    <K name = "K_16">
+      <Description>Kwota podatku należnego – Dostawa towarów oraz świadczenie usług na terytorium kraju, opodatkowane stawką 5%</Description>
+    </K>
+    <K name = "K_17">
+      <Description>Kwota netto – Dostawa towarów oraz świadczenie usług na terytorium kraju, opodatkowane stawką 7% albo 8% oraz świadczenie usług taksówkowych opodatkowanych w formie ryczałtu 4%</Description>
+    </K>
+    <K name = "K_18">
+      <Description>Kwota podatku należnego – Dostawa towarów oraz świadczenie usług na terytorium kraju, opodatkowane stawką 7% albo 8% oraz świadczenie usług taksówkowych opodatkowanych w formie ryczałtu 4%</Description>
+    </K>
+    
+    <K name = "K_19">
+      <Description>Kwota netto – Dostawa towarów oraz świadczenie usług na terytorium kraju, opodatkowane stawką 22% albo 23%</Description>
+    </K>
+    <K name = "K_20">
+      <Description>Kwota podatku należnego – Dostawa towarów oraz świadczenie usług na terytorium kraju, opodatkowane stawką 22% albo 23%</Description>
+    </K>
+    <K name = "K_21">
+      <Description>Kwota netto – Wewnątrzwspólnotowa dostawa towarów</Description>
+    </K>
+    <K name = "K_22">
+      <Description>Kwota netto – Eksport towarów</Description>
+    </K>
+    <K name = "K_23">
+      <Description>Kwota netto – Wewnątrzwspólnotowe nabycie towarów</Description>
+    </K>
+    <K name = "K_24">
+      <Description>Kwota podatku należnego – Wewnątrzwspólnotowe nabycie towarów</Description>
+    </K>
+    <K name = "K_25">
+      <Description>Kwota netto – Import towarów podlegający rozliczeniu zgodnie z art.33a ustawy</Description>
+    </K>
+    <K name = "K_26">
+      <Description>Kwota podatku należnego – Import towarów podlegający rozliczeniu zgodnie z art. 33a ustawy</Description>
+    </K>
+    <K name = "K_27">
+      <Description>Kwota netto – Import usług z wyłączeniem usług nabywanych od podatników podatku od wartości dodanej, do których stosuje się art.28b ustawy</Description>
+    </K>
+    <K name = "K_28">
+      <Description>Kwota podatku należnego – Import usług z wyłączeniem usług nabywanych od podatników podatku od wartości dodanej, do których stosuje się art. 28b ustawy</Description>
+    </K>
+    <K name = "K_29">
+      <Description>Kwota netto – Import usług nabywanych od podatników podatku od wartości dodanej, do których stosuje się art. 28b ustawy</Description>
+    </K>
+    <K name = "K_30">
+      <Description>Kwota podatku należnego – Import usług nabywanych od podatników podatku od wartości dodanej, do których stosuje się art. 28b ustawy</Description>
+    </K>
+    <K name = "K_31">
+      <Description> Kwota netto – Dostawa towarów oraz świadczenie usług, dla których podatnikiem jest nabywca zgodnie (m.in. roboty budowlane)z art. 17 ust. 1 pkt 7 lub 8 ustawy (wypełnia dostawca)</Description>
+    </K>
+    <K name = "K_32">
+      <Description>Kwota netto – Dostawa towarów, dla których podatnikiem jest nabywca zgodnie z art. 17 ust. 1 pkt 5 ustawy</Description>
+    </K>
+    <K name = "K_33">
+      <Description>Kwota podatku należnego – Dostawa towarów, dla których podatnikiem jest nabywca zgodnie z art. 17 ust. 1 pkt 5 ustawy(wypełnia nabywca)</Description>
+    </K>
+    <K name = "K_34">
+      <Description>Kwota netto – Dostawa towarów oraz świadczenie usług, dla których podatnikiem jest nabywca zgodnie z art. 17 ust. 1 pkt 7 lub 8 ustawy (wypełnia nabywca)</Description>
+    </K>
+    <K name = "K_35">
+      <Description>Kwota podatku należnego – Dostawa towarów oraz świadczenie usług, dla których podatnikiem jest nabywca zgodnie z art. 17 ust. 1 pkt 7 lub 8 ustawy (wypełnia nabywca)</Description>
+    </K>
+    <K name = "K_36">
+      <Description>Kwota podatku należnego od towarów i usług objętych spisem z natury, o którym mowa w art. 14 ust. 5 ustawy</Description>
+    </K>
+    <K name = "K_37">
+      <Description>Zwrot odliczonej lub zwróconej kwoty wydatkowanej na zakup kas rejestrujących, o którym mowa w art. 111 ust. 6 ustawy</Description>
+    </K>
+    <K name = "K_38">
+      <Description>Kwota podatku należnego od wewnątrzwspólnotowego nabycia środków transportu, wykazanego w poz. 24, podlegająca wpłacie w terminie, o którym mowa w art. 103 ust. 3, w związku z ust. 4 ustawy</Description>
+    </K>
+    <K name = "K_39">
+      <Description>Kwota podatku od wewnątrzwspólnotowego nabycia paliw silnikowych, podlegająca wpłacie w terminach, o których mowa w art. 103 ust. 5a i 5b ustawy</Description>
+    </K>
+</NeededValues>

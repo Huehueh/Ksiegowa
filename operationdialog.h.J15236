@@ -1,0 +1,45 @@
+#ifndef OPERATIONDIALOG_H
+#define OPERATIONDIALOG_H
+
+#include <QDialog>
+#include <QGridLayout>
+#include <QDataWidgetMapper>
+#include <QSqlTableModel>
+#include <QDateEdit>
+
+#include <memory>
+
+namespace Ui {
+class OperationDialog;
+}
+
+class OperationDialog : public QDialog
+{
+public:
+    OperationDialog(int companyId, QWidget *parent = nullptr);
+    virtual ~OperationDialog() { delete ui;}
+
+protected slots:
+  void OpenContractorDialog();
+  void OpenDictionaryDialog();
+
+protected:
+  bool eventFilter(QObject *object, QEvent *event) override;
+
+  virtual void LoadModel() = 0;
+  virtual void SetupUi() = 0;
+  virtual void CreateMapper() = 0;
+
+  virtual void SelectContractor(int){};
+  void LoadKValues(QSqlTableModel* model, int minCol, int maxCol, QGridLayout* layout, QDataWidgetMapper* mapper);
+  void SetupDateEdit(QDateEdit *dateEdit);
+
+  int mCompanyId;
+  QSqlTableModel *m_pModel;
+  int mSelectedIndex;
+  //std::unique_ptr<Ui::OperationDialog> ui;
+  Ui::OperationDialog* ui;
+  QDataWidgetMapper* mMapper;
+};
+
+#endif // OPERATIONDIALOG_H
