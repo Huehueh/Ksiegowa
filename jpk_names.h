@@ -2,6 +2,7 @@
 #define JPK_NAMES_H
 
 #include <QString>
+#include <QMap>
 #include "enums.h"
 
 enum Fields
@@ -27,13 +28,13 @@ enum Fields
 
 namespace Company
 {
-QMap<Fields, QString> Names =
-{
-    {Subject, "tns:Podmiot1"},
-    {Name, "tns:PelnaNazwa"},
-    {Idetifier, "tns:NIP"},
-    {Email, "tns:Email"}
-};
+    QMap<Fields, QString> Names =
+    {
+        {Subject, "tns:Podmiot1"},
+        {Name, "tns:PelnaNazwa"},
+        {Identifier, "tns:NIP"},
+        {Email, "tns:Email"}
+    };
 }
 
 namespace Purchase
